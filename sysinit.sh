@@ -87,7 +87,7 @@ fi
 
 ## Mkdir
 ROOT=/ROOT && mkdir -p $ROOT && cd $ROOT
-mkdir -p www tmp server log src BACKUP sh/CRON data conf bin
+mkdir -p www tmp server logs src BACKUP sh/CRON data conf bin
 chmod 700 BACKUP
 chmod 777 tmp && chmod o+t tmp
 chmod 750 sh
