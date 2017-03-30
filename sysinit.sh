@@ -19,6 +19,7 @@ yum install make cmake gcc python vim \
 		sl sipcalc \
 		jwhois tree \
 		redhat-lsb-core \
+		python3 git\
 		-y -q
 
 ## get version
